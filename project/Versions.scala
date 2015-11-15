@@ -18,7 +18,7 @@ trait ScalaJSVersions {
 
 	val dom = "0.8.1"
 
-	val codemirrorFacade = "5.3-0.5"
+	val codemirrorFacade = "5.5-0.5"
 
 	val binding = "0.7.15"
 
