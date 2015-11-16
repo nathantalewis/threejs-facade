@@ -2915,7 +2915,7 @@ class PlaneGeometry  extends Geometry {
 
 @JSName("THREE.PolyhedronGeometry")
 class PolyhedronGeometry  extends Geometry {
-  def this(vertices: js.Array[Double], faces: js.Array[Double], radius: Double = js.native, detail: Integer = js.native) = this()
+  def this(vertices: js.Array[Double], indices: js.Array[Int], radius: Double = js.native, detail: Integer = js.native) = this()
 }
 
 @JSName("THREE.RingGeometry")
