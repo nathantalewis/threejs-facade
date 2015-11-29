@@ -3063,6 +3063,11 @@ class EdgesHelper  extends Line {
   def this(`object`: Object3D, hex: Double = js.native) = this()
 }
 
+@JSName("THREE.EdgesGeometry")
+class EdgesGeometry extends Line {
+  def this(geometry: Geometry, thresholdAngle: Double = js.native) = this()
+}
+
 @JSName("THREE.FaceNormalsHelper")
 class FaceNormalsHelper  extends Line {
   def this(`object`: Object3D, size: Double = js.native, hex: Double = js.native, linewidth: Double = js.native) = this()
